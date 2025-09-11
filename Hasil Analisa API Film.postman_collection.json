@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "ddc59d9d-028b-4295-bc81-7a02d19f0285",
+		"name": "Hasil Analisa API Film",
+		"description": "Sebagai laporan dari mini project mata kuliah Interopabilitas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47979614",
+		"_collection_link": "https://salamrizki613-4248975.postman.co/workspace/Salam-Rizqi-Mulia's-Workspace~510a2cee-58f9-4956-86ba-eed47cdc2048/collection/47979614-ddc59d9d-028b-4295-bc81-7a02d19f0285?action=share&source=collection_link&creator=47979614"
+	},
+	"item": [
+		{
+			"name": "GET_FILM",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ghibliapi.dev/films",
+					"protocol": "https",
+					"host": [
+						"ghibliapi",
+						"dev"
+					],
+					"path": [
+						"films"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_FILM_BY_ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ghibliapi.dev/films/ff24da26-a969-4f0e-ba1e-a122ead6c6e3",
+					"protocol": "https",
+					"host": [
+						"ghibliapi",
+						"dev"
+					],
+					"path": [
+						"films",
+						"ff24da26-a969-4f0e-ba1e-a122ead6c6e3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
