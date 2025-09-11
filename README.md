@@ -14,3 +14,10 @@ API ini adalah layanan internal untuk mengelola ulasan film dari Studio Ghibli, 
 3. Install dependensi : `npm install`
 4. Jalankan server : `node server.js`
 Server akan berjalan di `http://localhost:3300`
+
+## Daftar Endpoint
+- `GET /status`: Cek status API
+- `GET /reviews`: Mengambil semua ulasan
+- `GET /reviews/:id`: Mengambil ulasan spesifik
+- `POST /reviews/:id`: Memperbarui ulasan
+- `DELETE /reviews/:id`: Menghapus ulasan
