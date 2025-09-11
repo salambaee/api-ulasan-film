@@ -91,14 +91,91 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3300/review/1",
+					"raw": "http://localhost:3300/reviews/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3300",
 					"path": [
-						"review",
+						"reviews",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_REVIEW",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"film_id\": \"Random\",\n    \"user\": \"Salam\",\n    \"rating\": 10,\n    \"comment\": \"Film ini layak untuk mendapatkan awards of the year\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3300/reviews",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"reviews"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT_REVIEW",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"film_id\": \"Random\",\n    \"user\": \"Salam\",\n    \"rating\": 10,\n    \"comment\": \"Film ini layak untuk mendapatkan awards of the year\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3300/reviews/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"reviews",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE_REVIEW",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3300/reviews/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"reviews",
 						"1"
 					]
 				}
