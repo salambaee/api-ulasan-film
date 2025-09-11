@@ -1,0 +1,24 @@
+{
+  "name": "api-ulasan-film",
+  "version": "1.0.0",
+  "description": "## Anggota Kelompok - Salam Rizqi Mulia - Moh. Jevon Attaillah - Achmad Alfarizy Satriya Gautama",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salambaee/api-ulasan-film.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salambaee/api-ulasan-film/issues"
+  },
+  "homepage": "https://github.com/salambaee/api-ulasan-film#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}

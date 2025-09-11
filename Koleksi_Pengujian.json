@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "ddc59d9d-028b-4295-bc81-7a02d19f0285",
-		"name": "Hasil Analisa API Film",
+		"name": "Koleksi_Pengujian",
 		"description": "Sebagai laporan dari mini project mata kuliah Interopabilitas",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "47979614",
@@ -42,6 +42,64 @@
 					"path": [
 						"films",
 						"ff24da26-a969-4f0e-ba1e-a122ead6c6e3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_STATUS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3300/status",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_REVIEW",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3300/review",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"review"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_REVIEW_BY_ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3300/review/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"review",
+						"1"
 					]
 				}
 			},
